@@ -1,11 +1,11 @@
 import { ColorSchemeScript, MantineProvider } from '@mantine/core';
 import type { Metadata } from 'next';
-import { Inter } from 'next/font/google';
+
+import { fontSans } from '~/lib/styles/fonts';
+import { themeConfig } from '~/lib/styles/theme';
 
 import '@mantine/core/styles.css';
 import '~/lib/styles/globals.css';
-
-const inter = Inter({ subsets: ['latin'] });
 
 const APP_NAME = 'nextarter-base';
 
@@ -38,8 +38,8 @@ export default function RootLayout({
       <head>
         <ColorSchemeScript />
       </head>
-      <body className={inter.className}>
-        <MantineProvider>{children}</MantineProvider>
+      <body className={fontSans.className}>
+        <MantineProvider theme={themeConfig}>{children}</MantineProvider>
       </body>
     </html>
   );
