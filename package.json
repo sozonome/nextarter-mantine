@@ -1,5 +1,5 @@
 {
-  "name": "nextarter-base",
+  "name": "nextarter-mantine",
   "private": true,
   "scripts": {
     "dev": "next dev",

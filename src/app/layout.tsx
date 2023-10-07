@@ -7,7 +7,7 @@ import { themeConfig } from '~/lib/styles/theme';
 import '@mantine/core/styles.css';
 import '~/lib/styles/globals.css';
 
-const APP_NAME = 'nextarter-base';
+const APP_NAME = 'nextarter-mantine';
 
 export const metadata: Metadata = {
   title: APP_NAME,

@@ -1,8 +1,10 @@
-# nextarter-base
+# nextarter-mantine
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/git?s=https://github.com/sozonome/nextarter-base) [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/sozonome/nextarter-base)
+<img src="https://og.sznm.dev/api/generate?heading=nextarter-mantine&text=Next.js+(App+Router)+template+with+Mantine++UI+and+TypeScript+setup.&template=color&center=true&height=320" />
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/sozonome/nextarter-base)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/git?s=https://github.com/sozonome/nextarter-mantine) [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/sozonome/nextarter-mantine)
+
+[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/sozonome/nextarter-mantine)
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [**TypeScript**](https://www.typescriptlang.org) setup.
 Start developing right away!
@@ -26,7 +28,7 @@ Start developing right away!
 You can either click `Use this template` button on this repository and clone the repo or directly from your terminal:
 
 ```bash
-npx degit sozonome/nextarter-base <YOUR_APP_NAME>
+npx degit sozonome/nextarter-mantine <YOUR_APP_NAME>
 ```
 
 Then, run the development server:
