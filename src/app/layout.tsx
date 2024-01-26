@@ -1,9 +1,9 @@
 import { ColorSchemeScript, MantineProvider } from '@mantine/core';
 import type { Metadata, Viewport } from 'next';
 
-import { themeConfig } from '@/lib/styles/theme';
 import Layout from '@/lib/layout';
 import { fontSans } from '@/lib/styles/fonts';
+import { themeConfig } from '@/lib/styles/theme';
 
 import '@/lib/styles/globals.css';
 import '@mantine/core/styles.css';
