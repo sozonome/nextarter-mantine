@@ -13,7 +13,7 @@ Start developing right away!
 
 - ✔️ toolings for linting, formatting, and conventions configured
 
-  `eslint`, `prettier`, `husky`, `lint-staged`, and `standard-version`
+  `biome`, `husky`, `lint-staged`, and `standard-version`
 
 - 📱 PWA-ready
 
