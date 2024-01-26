@@ -1,21 +1,18 @@
 import { ColorSchemeScript, MantineProvider } from '@mantine/core';
-import type { Metadata } from 'next';
+import type { Metadata, Viewport } from 'next';
 
-import { fontSans } from '~/lib/styles/fonts';
-import { themeConfig } from '~/lib/styles/theme';
+import Layout from '@/lib/layout';
+import { fontSans } from '@/lib/styles/fonts';
+import { themeConfig } from '@/lib/styles/theme';
 
 import '@mantine/core/styles.css';
-import '~/lib/styles/globals.css';
+import '@/lib/styles/globals.css';
 
 const APP_NAME = 'nextarter-mantine';
 
 export const metadata: Metadata = {
   title: APP_NAME,
   description: 'Next.js App with TypeScript setup',
-  viewport: {
-    width: 'device-width',
-    initialScale: 1,
-  },
   applicationName: APP_NAME,
   appleWebApp: {
     capable: true,
@@ -25,6 +22,11 @@ export const metadata: Metadata = {
   formatDetection: {
     telephone: false,
   },
+};
+
+export const viewport: Viewport = {
+  width: 'device-width',
+  initialScale: 1,
   themeColor: '#FFFFFF',
 };
 
@@ -39,7 +41,9 @@ export default function RootLayout({
         <ColorSchemeScript />
       </head>
       <body className={fontSans.className}>
-        <MantineProvider theme={themeConfig}>{children}</MantineProvider>
+        <MantineProvider theme={themeConfig}>
+          <Layout>{children}</Layout>
+        </MantineProvider>
       </body>
     </html>
   );
