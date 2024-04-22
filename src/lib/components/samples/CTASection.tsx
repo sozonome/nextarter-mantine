@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import { Anchor, Button, Flex } from '@mantine/core';
 
 const repoName = 'sozonome/nextarter-mantine';

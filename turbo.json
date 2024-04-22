@@ -7,7 +7,7 @@
     },
     "lint": {
       "outputs": [],
-      "inputs": ["biome.*", "src/**"]
+      "inputs": [".eslintrc.json", "biome.*", "src/**"]
     },
     "type-check": {
       "outputs": ["*.tsbuildinfo"]
