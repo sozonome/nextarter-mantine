@@ -1,15 +1,7 @@
 {
-  "$schema": "https://biomejs.dev/schemas/1.4.1/schema.json",
+  "$schema": "https://biomejs.dev/schemas/1.7.0/schema.json",
   "organizeImports": {
     "enabled": true
-  },
-  "files": {
-    "include": [
-      "./src",
-      "next.config.js",
-      "postcss.config.js",
-      "commitlint.config.js"
-    ]
   },
   "formatter": {
     "indentStyle": "space"
@@ -19,7 +11,33 @@
     "rules": {
       "recommended": true,
       "correctness": {
-        "noUnusedVariables": "error"
+        "noUnusedImports": "error",
+        "noUnusedVariables": "error",
+        "useHookAtTopLevel": "error"
+      },
+      "suspicious": {
+        "noConsoleLog": "error",
+        "noEmptyBlockStatements": "error"
+      },
+      "complexity": {
+        "useSimplifiedLogicExpression": "error",
+        "noExcessiveCognitiveComplexity": "error",
+        "noVoid": "warn"
+      },
+      "style": {
+        "useBlockStatements": "error",
+        "useCollapsedElseIf": "error",
+        "useConsistentArrayType": {
+          "level": "error",
+          "options": {
+            "syntax": "generic"
+          }
+        },
+        "useSingleCaseStatement": "error"
+      },
+      "nursery": {
+        "noDuplicateElseIf": "error",
+        "noDuplicateJsonKeys": "error"
       }
     }
   },

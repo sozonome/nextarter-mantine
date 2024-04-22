@@ -4,7 +4,7 @@ const SomeText = () => {
   return (
     <Flex direction="column" gap={2} align="center">
       <Title>nextarter-mantine</Title>
-      <Text size="sm" c="gray">
+      <Text size="sm">
         Next.js starter template with Mantine UI and TypeScript setup
       </Text>
     </Flex>

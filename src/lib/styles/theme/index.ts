@@ -7,4 +7,5 @@ export const themeConfig: MantineThemeOverride = {
   fontFamily: fontSans.style.fontFamily,
   components: componentsConfig,
   defaultRadius: 'md',
+  primaryColor: 'violet',
 };
