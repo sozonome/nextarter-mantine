@@ -20,34 +20,35 @@
     "prepare": "husky"
   },
   "dependencies": {
-    "@mantine/core": "^7.8.0",
-    "@mantine/hooks": "^7.8.0",
+    "@mantine/core": "^7.9.2",
+    "@mantine/hooks": "^7.9.2",
     "@theme-toggles/react": "^4.1.0",
-    "next": "^14.2.2",
+    "next": "^14.2.3",
     "next-seo": "^6.5.0",
-    "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react": "18.3.1",
+    "react-dom": "18.3.1"
   },
   "devDependencies": {
-    "@biomejs/biome": "1.7.0",
-    "@commitlint/cli": "^19.2.2",
+    "@biomejs/biome": "1.7.3",
+    "@commitlint/cli": "^19.3.0",
     "@commitlint/config-conventional": "^19.2.2",
-    "@types/node": "^20.12.7",
-    "@types/react": "^18.2.79",
+    "@types/node": "^20.12.12",
+    "@types/react": "^18.3.2",
     "eslint": "^8",
-    "eslint-config-next": "^14.2.2",
+    "eslint-config-next": "^14.2.3",
     "husky": "^9.0.11",
-    "knip": "^5.9.4",
-    "lint-staged": "^15.2.2",
+    "knip": "^5.16.0",
+    "lint-staged": "^15.2.4",
     "next-sitemap": "^4.2.3",
     "postcss": "^8.4.38",
-    "postcss-preset-mantine": "^1.14.4",
+    "postcss-preset-mantine": "^1.15.0",
     "postcss-simple-vars": "^7.0.1",
     "standard-version": "^9.5.0",
     "typescript": "5.4.5"
   },
   "engines": {
-    "node": ">=16.8.x",
-    "pnpm": ">=8"
-  }
+    "node": ">=18.20.x",
+    "pnpm": ">=9"
+  },
+  "packageManager": "pnpm@9.1.2"
 }
